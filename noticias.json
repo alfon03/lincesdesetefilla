@@ -1,0 +1,125 @@
+[
+    {
+        "id": "arranca-nueva-temporada",
+        "titulo": "Arranca una nueva temporada",
+        "fecha": "2026-09-12",
+        "fechaTexto": "12 septiembre 2026",
+        "imagen": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Equipo deportivo reunido antes de entrenar",
+        "resumen": "Volvemos al campo con nuevos retos, ilusión y muchas ganas de disfrutar en equipo.",
+        "contenido": [
+            {
+                "tipo": "imagen-texto",
+                "posicion": "izquierda",
+                "imagen": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=1200&q=80",
+                "alt": "Equipo deportivo reunido antes de entrenar",
+                "titulo": "Volvemos al campo",
+                "texto": "Comenzamos una nueva temporada con mucha ilusión y ganas de volver a compartir entrenamientos, partidos y momentos en equipo."
+            },
+            {
+                "tipo": "texto",
+                "titulo": "Nuevos retos",
+                "texto": "Esta temporada llega cargada de nuevos retos y muchas ganas de seguir creciendo juntos. Queremos disfrutar de cada entrenamiento, aprender y seguir mejorando como equipo."
+            },
+            {
+                "tipo": "imagen-texto",
+                "posicion": "derecha",
+                "imagen": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=80",
+                "alt": "Balón en un campo de fútbol",
+                "titulo": "Preparados para empezar",
+                "texto": "Todo está preparado para volver a disfrutar del deporte. Poco a poco iremos compartiendo todas las novedades de esta temporada."
+            },
+            {
+                "tipo": "imagen",
+                "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1400&q=80",
+                "alt": "Sesión de preparación física"
+            },
+            {
+                "tipo": "video",
+                "url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            },
+            {
+                "tipo": "texto",
+                "titulo": "¡Comenzamos!",
+                "texto": "Estamos deseando empezar esta nueva etapa y compartirla con todos vosotros."
+            }
+        ]
+    },
+    {
+        "id": "preparados-para-volver-a-jugar",
+        "titulo": "Preparados para volver a jugar",
+        "fecha": "2026-09-05",
+        "fechaTexto": "5 septiembre 2026",
+        "imagen": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Balón en un campo de fútbol",
+        "resumen": "Consulta las novedades y los horarios de los entrenamientos de esta temporada.",
+        "contenido": [
+            {
+                "tipo": "imagen-texto",
+                "posicion": "derecha",
+                "imagen": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=1200&q=80",
+                "alt": "Balón en un campo de fútbol",
+                "titulo": "La vuelta está cerca",
+                "texto": "Ya estamos preparando la vuelta a los entrenamientos. Muy pronto tendremos toda la información sobre horarios, actividades y novedades."
+            },
+            {
+                "tipo": "texto",
+                "titulo": "Horarios y actividades",
+                "texto": "Durante los próximos días iremos publicando todos los detalles para que podáis preparar la vuelta a la actividad."
+            }
+        ]
+    },
+    {
+        "id": "consejos-para-entrenar-mejor",
+        "titulo": "Consejos para entrenar mejor",
+        "fecha": "2026-08-28",
+        "fechaTexto": "28 agosto 2026",
+        "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Sesión de preparación física",
+        "resumen": "Nuestro equipo comparte algunas claves para preparar el cuerpo y recuperarse bien.",
+        "contenido": [
+            {
+                "tipo": "texto",
+                "titulo": "Entrenar es mucho más que esforzarse",
+                "texto": "Entrenar bien no consiste solamente en esforzarse durante la sesión. La preparación, la hidratación, el descanso y la recuperación también forman parte del entrenamiento."
+            },
+            {
+                "tipo": "imagen-texto",
+                "posicion": "izquierda",
+                "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80",
+                "alt": "Sesión de preparación física",
+                "titulo": "Preparación física",
+                "texto": "Preparar el cuerpo antes de entrenar ayuda a afrontar mejor cada sesión y a mantener buenos hábitos deportivos."
+            },
+            {
+                "tipo": "texto",
+                "titulo": "Descanso y recuperación",
+                "texto": "El descanso también forma parte del entrenamiento. Dormir bien y dar tiempo al cuerpo para recuperarse es fundamental."
+            }
+        ]
+    },
+    {
+        "id": "pronto-novedades-del-campus",
+        "titulo": "Pronto, novedades del campus",
+        "fecha": "2026-08-20",
+        "fechaTexto": "20 agosto 2026",
+        "imagen": "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Deporte de invierno en la montaña",
+        "resumen": "Estamos preparando nuevas actividades. Muy pronto compartiremos todos los detalles.",
+        "contenido": [
+            {
+                "tipo": "imagen-texto",
+                "posicion": "derecha",
+                "imagen": "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?auto=format&fit=crop&w=1200&q=80",
+                "alt": "Deporte de invierno en la montaña",
+                "titulo": "Nuevas actividades",
+                "texto": "Estamos trabajando en nuevas actividades para los próximos meses. Muy pronto compartiremos todos los detalles."
+            },
+            {
+                "tipo": "texto",
+                "titulo": "Muy pronto",
+                "texto": "Queremos preparar una programación variada y divertida para que todos podáis disfrutar de nuevas experiencias."
+            }
+        ]
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "id": "camiseta-oficial",
+        "nombre": "Camiseta Oficial Linces",
+        "categoria": "Camisetas",
+        "precio": 25,
+        "descripcion": "Camiseta oficial de Linces De Setefilla, diseñada para representar al club dentro y fuera del campo.",
+        "imagenes": [
+            "assets/tienda/camisetas/camiseta-01.jpg",
+            "assets/tienda/camisetas/camiseta-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/camiseta.jpg",
+        "disponible": true,
+        "destacado": true
+    },
+    {
+        "id": "camiseta-entrenamiento",
+        "nombre": "Camiseta de Entrenamiento Linces",
+        "categoria": "Camisetas",
+        "precio": 22,
+        "descripcion": "Camiseta de entrenamiento oficial de Linces De Setefilla.",
+        "imagenes": [
+            "https://thumblr.uniid.it/product/372949/db04405f82e1.jpg?format=webp&q=75&width=3840",
+            "assets/tienda/camisetas/entrenamiento-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/camiseta.jpg",
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "pantalon-oficial",
+        "nombre": "Pantalón Oficial Linces",
+        "categoria": "Pantalones",
+        "precio": 20,
+        "descripcion": "Pantalón deportivo oficial de Linces De Setefilla.",
+        "imagenes": [
+            "https://i.ebayimg.com/images/g/M9EAAOSwqQ1gaI5b/s-l1200.jpg",
+            "assets/tienda/pantalones/pantalon-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/pantalon.jpg",
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "sudadera-oficial",
+        "nombre": "Sudadera Oficial Linces",
+        "categoria": "Sudaderas",
+        "precio": 40,
+        "descripcion": "Sudadera oficial de Linces De Setefilla, perfecta para entrenamientos y para el día a día.",
+        "imagenes": [
+            "assets/tienda/sudaderas/sudadera-01.jpg",
+            "assets/tienda/sudaderas/sudadera-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/sudadera.jpg",
+        "disponible": true,
+        "destacado": true
+    },
+    {
+        "id": "sudadera-capucha",
+        "nombre": "Sudadera Linces con Capucha",
+        "categoria": "Sudaderas",
+        "precio": 45,
+        "descripcion": "Sudadera con capucha con identidad oficial de Linces De Setefilla.",
+        "imagenes": [
+            "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,q_auto:eco/8b4e7c77-2a45-4c7e-bc75-4b9e3b9a5e8a/liverpool-fc-standard-issue-third-mens-nike-dri-fit-football-pullover-hoodie.png",
+            "assets/tienda/sudaderas/capucha-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/sudadera.jpg",
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "chandal-oficial",
+        "nombre": "Chándal Oficial Linces",
+        "categoria": "Chándales",
+        "precio": 65,
+        "descripcion": "Chándal oficial de Linces De Setefilla compuesto por chaqueta y pantalón.",
+        "imagenes": [
+            "https://www.soccertracksuits.com/cdn/shop/products/Sweden-training-bench-soccer-tracksuit-2024-25-adidas.jpg",
+            "assets/tienda/chandales/chandal-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/chandal.jpg",
+        "disponible": true,
+        "destacado": true
+    },
+    {
+        "id": "botella-oficial",
+        "nombre": "Botella Oficial Linces",
+        "categoria": "Botellas",
+        "precio": 12,
+        "descripcion": "Botella deportiva oficial de Linces De Setefilla.",
+        "imagenes": [
+            "https://duyn491kcolsw.cloudfront.net/files/49/49c/49ccvd.png?ph=f4acff64ae"
+        ],
+        "tallas": null,
+        "guiaTallas": null,
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "espinilleras-linces",
+        "nombre": "Espinilleras Linces",
+        "categoria": "Espinilleras",
+        "precio": 18,
+        "descripcion": "Espinilleras deportivas con diseño de Linces De Setefilla.",
+        "imagenes": [
+            "https://contents.mediadecathlon.com/p2995916/k%24d298e0f054448dd66f1e6270dac402b6/collant-keepcomfort-adulte-football-noir.jpg",
+            "assets/tienda/espinilleras/espinilleras-02.jpg"
+        ],
+        "tallas": [
+            "S",
+            "M",
+            "L"
+        ],
+        "guiaTallas": null,
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "guantes-portero",
+        "nombre": "Guantes de Portero Linces",
+        "categoria": "Guantes",
+        "precio": 35,
+        "descripcion": "Guantes de portero con identidad de Linces De Setefilla.",
+        "imagenes": [
+            "https://contents.mediadecathlon.com/p2513236/k%242669ece1178ecfe4472b004c60bb6b4e/picture.jpg?f=3000x0&format=auto",
+            "assets/tienda/guantes/guantes-02.jpg"
+        ],
+        "tallas": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "guiaTallas": "assets/tienda/guias/guantes.jpg",
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "mochila-oficial",
+        "nombre": "Mochila Oficial Linces",
+        "categoria": "Mochilas",
+        "precio": 35,
+        "descripcion": "Mochila deportiva oficial de Linces De Setefilla para entrenamientos y desplazamientos.",
+        "imagenes": [
+            "https://assets.adidas.com/images/w_600%2Cf_auto%2Cq_auto/01b947e463bc4db3b549ba14e806f75d_9366/Stadium_4_Backpack_Black_JJ7421_01_standard.jpg",
+            "assets/tienda/mochilas/mochila-02.jpg"
+        ],
+        "tallas": null,
+        "guiaTallas": null,
+        "disponible": true,
+        "destacado": true
+    },
+    {
+        "id": "macuto-oficial",
+        "nombre": "Macuto Oficial Linces",
+        "categoria": "Macutos",
+        "precio": 40,
+        "descripcion": "Macuto deportivo oficial de Linces De Setefilla con espacio para equipamiento deportivo.",
+        "imagenes": [
+            "https://contents.mediadecathlon.com/p2492729/1cr1/k%2405b6cc0fbd6616661c6d8ef726f4552a/maleta-de-deporte-kipsta-academique-55-litros-azul-marino.jpg?f=3000x0&format=auto",
+            "assets/tienda/macutos/macuto-02.jpg"
+        ],
+        "tallas": null,
+        "guiaTallas": null,
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "camiseta-termica",
+        "nombre": "Camiseta Térmica Linces",
+        "categoria": "Térmicas",
+        "precio": 30,
+        "descripcion": "Camiseta térmica deportiva para entrenamientos y partidos en condiciones de frío.",
+        "imagenes": [
+            "https://contents.mediadecathlon.com/p2384372/k%242d65257f5463fa390d9293337d587941/picture.jpg",
+            "assets/tienda/termicas/termica-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/termica.jpg",
+        "disponible": true,
+        "destacado": false
+    },
+    {
+        "id": "pantalon-termico",
+        "nombre": "Pantalón Térmico Linces",
+        "categoria": "Térmicas",
+        "precio": 30,
+        "descripcion": "Pantalón térmico deportivo para entrenamientos y partidos en condiciones de frío.",
+        "imagenes": [
+            "https://contents.mediadecathlon.com/p2995916/k%24d298e0f054448dd66f1e6270dac402b6/collant-keepcomfort-adulte-football-noir.jpg",
+            "assets/tienda/termicas/pantalon-termico-02.jpg"
+        ],
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "guiaTallas": "assets/tienda/guias/termica.jpg",
+        "disponible": true,
+        "destacado": false
+    }
+]

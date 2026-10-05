@@ -1,0 +1,430 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    min-height: 100vh;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        #f3f6f9;
+}
+
+.admin-page {
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 24px;
+}
+
+.admin-card {
+    width: 100%;
+
+    max-width: 420px;
+
+    padding: 36px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.admin-logo {
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.admin-logo img {
+    width: 90px;
+
+    height: 90px;
+
+    object-fit: contain;
+}
+
+.admin-card h1 {
+    margin: 0;
+
+    color: #001d3d;
+
+    text-align: center;
+
+    font-size: 1.7rem;
+}
+
+.admin-subtitle {
+    margin: 8px 0 30px;
+
+    color: #667085;
+
+    text-align: center;
+
+    font-size: 0.95rem;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #344054;
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border: 1px solid #d0d5dd;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 1rem;
+
+    transition:
+        border-color 0.2s,
+        box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #003566;
+
+    box-shadow:
+        0 0 0 3px rgba(0, 53, 102, 0.1);
+}
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: 0;
+
+    border-radius: 10px;
+
+    background: #003566;
+
+    color: #ffffff;
+
+    font-size: 1rem;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        opacity 0.2s;
+}
+
+button:hover {
+    background: #00284d;
+}
+
+button:disabled {
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}
+
+.admin-alert {
+    margin-bottom: 18px;
+
+    padding: 12px 14px;
+
+    border-radius: 9px;
+
+    font-size: 0.9rem;
+
+    line-height: 1.4;
+}
+
+.admin-alert-danger {
+    background: #f8d7da;
+
+    color: #842029;
+}
+
+.admin-alert-success {
+    background: #d1e7dd;
+
+    color: #0f5132;
+}
+
+.d-none {
+    display: none;
+}
+
+@media (max-width: 480px) {
+
+    .admin-page {
+        padding: 16px;
+    }
+
+    .admin-card {
+        padding: 28px 22px;
+    }
+
+}
+
+.admin-panel-content hr {
+    border: 0;
+    border-top: 1px solid #eaecf0;
+    margin: 30px 0;
+}
+
+.campus-section {
+    margin-bottom: 30px;
+}
+
+.campus-section-header {
+    margin-bottom: 18px;
+}
+
+.campus-section h2 {
+    margin: 0 0 6px;
+    color: #001d3d;
+    font-size: 1.25rem;
+}
+
+.campus-section p {
+    margin: 0;
+    color: #667085;
+    font-size: .9rem;
+}
+
+.campus-loading {
+    padding: 18px;
+    text-align: center;
+    color: #667085;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.campus-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.campus-card {
+    padding: 18px;
+    border: 1px solid #e4e7ec;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.campus-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.campus-card h3 {
+    margin: 0;
+    color: #001d3d;
+    font-size: 1.05rem;
+}
+
+.campus-id {
+    margin-top: 4px;
+    color: #667085;
+    font-size: .8rem;
+}
+
+.campus-status {
+    flex-shrink: 0;
+    padding: 5px 9px;
+    border-radius: 999px;
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.campus-status-active {
+    background: #d1e7dd;
+    color: #0f5132;
+}
+
+.campus-status-inactive {
+    background: #f8d7da;
+    color: #842029;
+}
+
+.campus-dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.campus-date {
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.campus-date-label {
+    display: block;
+    margin-bottom: 4px;
+    color: #667085;
+    font-size: .75rem;
+}
+
+.campus-date-value {
+    color: #344054;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+
+    .campus-card-header {
+        flex-direction: column;
+    }
+
+    .campus-dates {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.campus-status-pending {
+    background: #fff3cd;
+    color: #664d03;
+}
+
+.campus-status-closed {
+    background: #f8d7da;
+    color: #842029;
+}
+
+.campus-actions {
+    margin-top: 16px;
+}
+
+.campus-edit-button {
+    width: auto;
+    padding: 10px 16px;
+    font-size: .9rem;
+}
+
+.campus-edit-form {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid #eaecf0;
+}
+
+.campus-edit-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.campus-edit-form .form-group {
+    margin-bottom: 14px;
+}
+
+.campus-edit-form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #344054;
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.campus-edit-form input[type="date"] {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #d0d5dd;
+    border-radius: 9px;
+    outline: none;
+    font-size: .95rem;
+    background: #fff;
+}
+
+.campus-edit-form input[type="date"]:focus {
+    border-color: #003566;
+    box-shadow: 0 0 0 3px rgba(0, 53, 102, .1);
+}
+
+.campus-active-row {
+    margin: 4px 0 18px;
+}
+
+.campus-active-row label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.campus-active-row input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+
+.campus-edit-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.campus-edit-actions button {
+    width: auto;
+    padding: 10px 16px;
+    font-size: .9rem;
+}
+
+.campus-cancel-button {
+    background: #667085;
+}
+
+.campus-cancel-button:hover {
+    background: #475467;
+}
+
+@media (max-width: 480px) {
+
+    .campus-edit-fields {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .campus-edit-actions {
+        flex-direction: column;
+    }
+
+    .campus-edit-actions button {
+        width: 100%;
+    }
+
+}

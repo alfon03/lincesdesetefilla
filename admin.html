@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Administración | Linces de Setefilla
+    </title>
+    <link rel="icon" type="image/png" href="assets/LOGO.png">
+    <link rel="apple-touch-icon" href="assets/LOGO.png">
+    <link rel="stylesheet" href="admin.css">
+
+</head>
+
+<body>
+
+    <main class="admin-page">
+
+        <section class="admin-card">
+
+            <div class="admin-logo">
+                <img src="assets/logo.png" alt="Linces de Setefilla">
+            </div>
+
+            <h1>
+                Administración
+            </h1>
+
+            <p class="admin-subtitle">
+                Linces de Setefilla
+            </p>
+
+            <div id="adminAlert" class="admin-alert d-none" role="alert"></div>
+
+            <form id="adminLoginForm" novalidate>
+
+                <div class="form-group">
+
+                    <label for="adminUsuario">
+                        Usuario
+                    </label>
+
+                    <input type="text" id="adminUsuario" name="usuario" autocomplete="username" required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="adminPassword">
+                        Contraseña
+                    </label>
+
+                    <input type="password" id="adminPassword" name="password" autocomplete="current-password" required>
+
+                </div>
+
+                <button type="submit" id="adminLoginButton">
+                    <span id="buttonText">
+                        Entrar
+                    </span>
+
+                    <span id="buttonLoading" class="d-none">
+                        Comprobando...
+                    </span>
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script src="admin.js"></script>
+
+</body>
+
+</html>

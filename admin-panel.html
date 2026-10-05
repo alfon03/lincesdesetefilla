@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Panel de administración | Linces de Setefilla
+    </title>
+    <link rel="icon" type="image/png" href="assets/LOGO.png">
+    <link rel="apple-touch-icon" href="assets/LOGO.png">
+    <link rel="stylesheet" href="admin.css">
+
+</head>
+
+<body>
+
+    <main class="admin-page">
+
+        <section class="admin-card">
+
+            <div class="admin-logo">
+
+                <img src="assets/logo.png" alt="Linces de Setefilla">
+
+            </div>
+
+
+            <h1>
+                Panel de administración
+            </h1>
+
+
+            <p class="admin-subtitle">
+                Linces de Setefilla
+            </p>
+
+
+            <div id="adminAlert" class="admin-alert d-none" role="alert"></div>
+
+
+            <div class="admin-panel-content">
+
+                <h2>
+                    Bienvenido
+                </h2>
+
+
+                <p>
+                    Has iniciado sesión correctamente como administrador.
+                </p>
+
+
+                <div class="admin-info-box">
+
+                    <strong>
+                        Usuario:
+                    </strong>
+
+                    <span id="adminUsuario">
+                        —
+                    </span>
+
+                </div>
+
+
+                <hr>
+
+
+                <section class="campus-section">
+
+                    <div class="campus-section-header">
+
+                        <div>
+
+                            <h2>
+                                Gestión del Campus
+                            </h2>
+
+                            <p>
+                                Campus configurados actualmente.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="campusLoading" class="campus-loading">
+                        Cargando campus...
+                    </div>
+
+
+                    <div id="campusList" class="campus-list"></div>
+
+
+                    <div id="campusEmpty" class="admin-alert admin-alert-success d-none">
+                        No hay campus configurados.
+                    </div>
+
+                </section>
+
+
+                <button type="button" id="logoutButton">
+                    Cerrar sesión
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="admin-panel.js"></script>
+
+</body>
+
+</html>
