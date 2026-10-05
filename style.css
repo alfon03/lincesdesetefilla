@@ -402,7 +402,7 @@
   }
 
   .season-summer::before {
-      background-image: url("assets/Verano.png");
+      background-image: url("assets/verano.png");
   }
 
   .season-winter::before {
